@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Meditation App</title>
+
+  <!--CSS-->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!---->
+
+  <!-- Icons --> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!---->
+
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@700&display=swap" rel="stylesheet">
+  <!---->
+</head>
+
+<body>
+  <!--Circles-->
+  <div class = "circle">
+    <div class = "circleoutline"></div>
+    <div class = "innercircle"></div>
+  </div>
+  <!---->
+
+  <!--Audio-->
+  <audio id = "music">
+    <source src="/bensound-relaxing.mp3"/>
+  </audio>
+  <!---->
+
+  <!--Buttons-->
+  <div class = "buttons">
+    <button id = "start" onclick = "togglebutton()">Start</button>
+    <button id = "restart" onclick = "restart()"><i class="fa fa-refresh"></i></button>  
+  </div>
+  <!---->
+
+  <!--JS-->
+  <script src="script.js"></script>
+  <!---->
+</body>
+
+</html>
